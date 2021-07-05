@@ -1,0 +1,91 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+section {
+  margin-bottom: 100px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.blue {
+  color: blue;
+}
+.link {
+  text-decoration: none;
+  padding: 15px 40px;
+  background-image: linear-gradient(blue, cyan);
+  color: white;
+  font-weight: 500;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.head {
+  display: flex;
+}
+.division {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-bottom: 100px;
+}
+.division img {
+  width: 100%;
+}
+.division p {
+  text-align: justify;
+}
+
+/* second section */
+.about {
+  background-image: url(./images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* recepie section */
+.recepie-item {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.food-title {
+  width: 20%;
+  margin: auto;
+  padding: 1%;
+  box-shadow: 10px 10px 20px grey;
+  border-radius: 20px;
+}
+.food-title img {
+  width: 100%;
+}
+/* media details */
+
+.media-details {
+  display: flex;
+  width: 80%;
+  box-shadow: 10px 10px 20px gray;
+  margin: auto;
+  border-radius: 20px;
+}
+.media {
+  width: 20%;
+  margin-left: auto;
+}
+
+/* footer */
+footer {
+  margin-top: 100px;
+  padding: 5%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+}
