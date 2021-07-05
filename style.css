@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 section {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 h1 {
   font-size: 50px;
@@ -58,7 +58,7 @@ h2 {
 }
 .food-title {
   width: 20%;
-  margin: auto;
+  margin:0 auto;
   padding: 1%;
   box-shadow: 10px 10px 20px grey;
   border-radius: 20px;
@@ -72,12 +72,13 @@ h2 {
   display: flex;
   width: 80%;
   box-shadow: 10px 10px 20px gray;
-  margin: auto;
+  margin:0 auto;
   border-radius: 20px;
 }
 .media {
   width: 20%;
-  margin-left: auto;
+  margin:0 auto;
+  text-align: center;
 }
 
 /* footer */
