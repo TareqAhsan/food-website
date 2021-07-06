@@ -61,6 +61,7 @@ h2 {
   margin:0 auto;
   padding: 1%;
   box-shadow: 10px 10px 20px grey;
+  text-align: justify;
   border-radius: 20px;
 }
 .food-title img {
@@ -89,4 +90,29 @@ footer {
   background-color: black;
   text-align: center;
   justify-content: center;
+}
+.info{
+  background-image: linear-gradient(blue,cyan);
+  box-shadow: 10px 10px 20px grey;
+  width: 80%;
+  padding: 4%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+input{
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 4px;
+}
+.sub{
+  width: 100%;
+  padding: 10px 12px;
+  margin:8px 0;
+  background-color:rgb(15, 15, 245);
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
 }
