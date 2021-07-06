@@ -58,7 +58,7 @@ h2 {
 }
 .food-title {
   width: 20%;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 1%;
   box-shadow: 10px 10px 20px grey;
   text-align: justify;
@@ -73,12 +73,12 @@ h2 {
   display: flex;
   width: 80%;
   box-shadow: 10px 10px 20px gray;
-  margin:0 auto;
+  margin: 0 auto;
   border-radius: 20px;
 }
 .media {
   width: 20%;
-  margin:0 auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -91,27 +91,28 @@ footer {
   text-align: center;
   justify-content: center;
 }
-.info{
-  background-image: linear-gradient(blue,cyan);
+.info {
+  background-image: linear-gradient(blue, cyan);
   box-shadow: 10px 10px 20px grey;
   width: 80%;
   padding: 4%;
   border-radius: 10px;
   margin: 0 auto;
 }
-input{
+input {
   width: 100%;
   padding: 10px 12px;
   margin: 8px 0;
   border: 1px solid white;
   display: inline-block;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 .sub{
   width: 100%;
   padding: 10px 12px;
-  margin:8px 0;
-  background-color:rgb(15, 15, 245);
+  margin: 8px 0;
+  background-color: rgb(15, 15, 245);
   color: white;
   cursor: pointer;
   border-radius: 4px;
